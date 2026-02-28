@@ -1,0 +1,4 @@
+interface IRefuelable
+{
+    void Refill();
+}
