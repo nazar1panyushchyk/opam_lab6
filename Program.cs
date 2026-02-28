@@ -5,7 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        //task1
+        // //task1
+        Console.WriteLine("=====================================================");
         List<Vehicle> vehicles = new List<Vehicle>
         {
             new Car("Toyota", 120),
@@ -20,6 +21,7 @@ class Program
         Console.WriteLine("=====================================================");
 
         //task2
+        Console.WriteLine("=====================================================");
         List<ChessPiece> pieces = new List<ChessPiece>
         {
             new King("White"),
@@ -31,10 +33,10 @@ class Program
         {
             Console.WriteLine($"{piece.GetType().Name} може ходити з (4,4) у (5,5)? {piece.CanMove(4, 4, 5, 5)}");
         }
-
         Console.WriteLine("=====================================================");
-        
+
         //task3
+        Console.WriteLine("=====================================================");
         List<Artifact> inventory = new List<Artifact>();
 
         inventory.Add(new MagicScroll(101));
@@ -46,6 +48,7 @@ class Program
         {
             item.Identify();
         }
+        Console.WriteLine("=====================================================");
 
         Console.WriteLine("\nНатисніть будь-яку клавішу для виходу...");
         Console.ReadKey();
